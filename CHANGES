@@ -1,3 +1,9 @@
+Changes for 0.04    Mon Sep  7 09:33:15 BST 2009
+=================================================
+* Users of 0.02 need not upgrade
+* Due to core changes use 'less' instead of 'strict'
+  in the tests when PERL_CORE is set
+
 Changes for 0.02    Sat Dec 13 18:35:01 CET 2008
 =================================================
 * Users of 0.01 need not upgrade

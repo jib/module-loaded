@@ -4,7 +4,7 @@ use Test::More  'no_plan';
 my $Class   = 'Module::Loaded';
 my @Funcs   = qw[mark_as_loaded mark_as_unloaded is_loaded];
 my $Mod     = 'Foo::Bar'.$$;
-my $Strict  = 'strict';
+my $Strict  = $ENV{'PERL_CORE'} ? 'less' : 'strict';
 
 ### load the thing
 {   use_ok( $Class );
