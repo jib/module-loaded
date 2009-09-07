@@ -1,4 +1,5 @@
 use strict;
+use less;
 use Test::More  'no_plan';
 
 my $Class   = 'Module::Loaded';

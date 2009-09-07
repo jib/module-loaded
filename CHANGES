@@ -1,3 +1,7 @@
+Changes for 0.06    Mon Sep  7 09:45:48 BST 2009
+=================================================
+* Messed up the test changes for core, fixed.
+
 Changes for 0.04    Mon Sep  7 09:33:15 BST 2009
 =================================================
 * Users of 0.02 need not upgrade
