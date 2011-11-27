@@ -1,7 +1,7 @@
 This is the README file for Module::Loaded, a module that lets you
 mark modules as being loaded/unloaded
 
-Please refer to 'perldoc Module::Loaded' after installation for 
+Please refer to 'perldoc Module::Loaded' after installation for
 details.
 
 #####################################################################
