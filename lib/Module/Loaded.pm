@@ -92,7 +92,7 @@ sub mark_as_unloaded (*) {
 C<is_loaded> tells you if C<PACKAGE> has been marked as loaded yet.
 C<PACKAGE> can be a bareword or string.
 
-It returns falls if C<PACKAGE> has not been loaded yet and the location
+It returns false if C<PACKAGE> has not been loaded yet and the location
 from where it is said to be loaded on success.
 
 =cut
